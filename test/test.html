@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>TEST</title>
+    <link href="test.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="test.js"></script>
+
+</head>
+
+
+<body>
+    <h1>Hazırsan başlıyoruz!</h1>
+     <form id="quiz" name="quiz">
+
+
+
+        <p class="questions">1. "'Beni öldürmeyen acı güçlendirir" hangi ünlü düşünürün sözüdür? </p>
+
+        <input type="radio" id="mc" name="question1" value="1"> <p>Marx</p>
+
+        <input type="radio" id="mc" name="question1" value="1"> <p>Freud</p>
+
+        <input type="radio" id="mc" name="question1" value="1"> <p>Nietzsche</p>
+
+
+        <p class="questions"> 2. "Açlık" kitabının yazarı ünlü romancı kimdir? </p>
+
+        <input type="radio" id="mc" name="question2" value="2"> 
+        <p>Gabriel Garcia Marquez</p>
+
+        <input type="radio" id="mc" name="question2" value="2"> 
+        <p>Jose Saramago</p>
+
+        <input type="radio" id="mc" name="question2" value="2"> 
+        <p>Knut Hamsun</p>
+        
+        <p class="questions">3. "AK-47" olarak da bilinen silahı kim bulmuştur? </p>
+
+        <input type="radio" id="mc" name="question3" value="3"> 
+        <p>Mikhail Kalashnikov</p>
+
+        <input type="radio" id="mc" name="question3" value="3"> 
+        <p>Mihail Gorbaçov</p>
+
+        <input type="radio" id="mc" name="question3" value="3"> 
+        <p>Svetoslav Todorov</p>
+
+        <p class="questions">4. "Aspirin" ilk kez hangi yılda satışa çıkmıştır?  </p>
+
+        <input type="radio" id="mc" name="question4" value="4"> 
+        <p>1937</p>
+
+        <input type="radio" id="mc" name="question4" value="4"> 
+        <p>1915</p>
+
+        <input type="radio" id="mc" name="question4" value="4"> 
+        <p>1899</p>
+
+        <p class="questions"> 5. "Calamity Jane" karakteri hangi çizgi romanda geçer? </p>
+
+        <input type="radio" id="mc" name="question5" value="5"> 
+        <p>Mister No</p>
+
+        <input type="radio" id="mc" name="question5" value="5"> 
+        <p>Tenten'in Maceraları</p>
+
+        <input type="radio" id="mc" name="question5" value="5"> 
+        <p>Red Kit</p>
+
+        <p class="questions"> 6. "Davut Yıldızı" hangi dinin sembolüdür? </p>
+
+        <input type="radio" id="mc" name="question6" value="6"> 
+        <p>Budizm</p>
+
+        <input type="radio" id="mc" name="question6" value="6"> 
+        <p>Hristiyanlık</p>
+
+        <input type="radio" id="mc" name="question6" value="6"> 
+        <p>Musevilik</p>
+
+        <p class="questions"> 7. 24 yaşında hayatını kaybeden James Dean'in ölüm sebebi nedir?  </p>
+
+        <input type="radio" id="mc" name="question7" value="7"> 
+        <p>Kalp Krizi </p>
+
+        <input type="radio" id="mc" name="question7" value="7"> 
+        <p>Trafik Kazası </p>
+
+        <input type="radio" id="mc" name="question7" value="7"> 
+        <p>Suikast </p>
+
+        <p class="questions"> 8. 4 hafta kaç gün eder? </p>
+
+        <input type="radio" id="mc" name="question8" value="8"> 
+        <p>25 </p>
+
+        <input type="radio" id="mc" name="question8" value="8"> 
+        <p>28 </p>
+
+        <input type="radio" id="mc" name="question8" value="8"> 
+        <p>16 </p>
+
+        <p class="questions"> 10. AB standartlarına göre IBAN numarasında en fazla kaç adet rakam olabilir?  </p>
+
+        <input type="radio" id="mc" name="question9" value="9"> 
+        <p>22</p>
+
+        <input type="radio" id="mc" name="question9" value="9"> 
+        <p>16</p>
+
+        <input type="radio" id="mc" name="question9" value="9"> 
+        <p>34</p>
+
+
+        <p class="questions"> 9. 50 Amerikan Doları'nın üzerinde kimin resmi bulunur? </p>
+
+        <input type="radio" id="mc" name="question10" value="10"> 
+        <p> Ulysses S. Grant</p>
+
+        <input type="radio" id="mc" name="question10" value="10"> 
+        <p> Alexander Hamilton</p>
+
+        <input type="radio" id="mc" name="question10" value="10"> 
+        <p> Thomas Jefferson</p>
+
+
+        <input id="button" type="button" value="Skorumu göster" onclick="check();">
+
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+
+</html>
+
+</body>

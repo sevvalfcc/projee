@@ -1,0 +1,26 @@
+<h1>Javascript Faktöriyel Hesaplama</h1>
+    
+    <label>Sayı giriniz : </label>
+    <input type="number" id="sayi">
+
+    <button id="hesapla">Hesapla</button>
+    
+    <div id="sonuc"></div>
+    
+    <script>
+        function hesapla(){
+            var faktoriyel=1;
+            var sayi=document.getElementById("sayi").value;
+            sayi=Number(sayi);
+    
+            if(sayi>=0){
+                for(var i=1;i<=sayi;i++){
+                    faktoriyel=faktoriyel*i;
+                }
+            }
+            document.getElementById("sonuc").innerHTML="Sonuç : " + faktoriyel;
+        }
+
+        var hesaplaBtn=document.getElementById("hesapla");
+        hesaplaBtn.onclick=hesapla;
+    </script>

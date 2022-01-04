@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div>
+        <form name="circleOne">
+            <h3>Bir dairenin çevresini hesaplayın.</h3>
+           <p>Yarıçap:</p>
+                <input id="txtChar" onkeypress="enterKeyPressCirc(event); return isNumberKey(event)" type="text" size=20 value="" name="radiusOne">
+                <input type="button" id="btnCalcCircum" name="circumferanceCalc" value="Hesapla" onclick="circumference()">
+                <input type="Reset" name="circumferenceReset" value="Sonuç">
+                <input type="text" size="20" name="circumferenceAnswer">
+        </form>
+    </div>
+     <div>
+         <form name="circleTwo">
+            <h3>Bir dairenin alanını hesaplayın.</h3>
+                <p>Yarıçap:</p>
+                <input id="txtChar" onkeypress= "enterKeyPressArea(event); return isNumberKey(event);" type="text" size=20 value="" name="radiusTwo">
+                <input type="button" id="btnCalcArea" name="areaCalc" value="Hesapla" onclick="area()">
+            <input type="Reset" name="areaReset" value="Sonuç">
+                <input type="text" size="20" name="areaAnswer">
+        </form>
+    </div>
+    <script src="daire.js"></script>
+</body>
+</html>
+
+ 
+   
